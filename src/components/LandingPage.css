@@ -1,0 +1,75 @@
+
+.img-div{
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    z-index: -1;
+}
+
+.img-div-1{
+   
+    background-position: center;
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+    top:0;
+    z-index: -1;
+}
+.nav{
+    position: absolute;
+    width: 100vw;
+    height: 15vw;
+    background-color:transparent;
+    z-index: 9999;
+}
+.slick-slider {
+    overflow: hidden !important;
+  }
+  
+  .slick-list {
+    overflow: hidden !important;
+    width: 100%!important;
+  }
+
+  .container-div-0{
+    position:absolute;
+    z-index:99999999;
+
+    width:50vw;
+    height:50vh;
+    margin-top:-30vw;
+    margin-left: 10vw;
+  }
+
+  .container-div-1{
+   
+    position:initial;
+    z-index:99999999;
+    width:50vw;
+    height:50vh;
+    margin-top:-30vw;
+    margin-left: 10vw;
+  }
+
+  @media only screen and (max-width:900px) {
+    .container-div-0{
+      position:absolute;
+
+      width:70vw;
+      height:50vh;
+      margin-left: 10vw;
+      margin-top: -125vw;
+     
+    }
+    .container-div-1{
+      
+      position:absolute;
+      
+      width:70vw;
+      height:50vh;
+  margin-top: -125vw;
+      margin-left: 10vw;
+    }
+  }

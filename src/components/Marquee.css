@@ -1,0 +1,43 @@
+/* .marquee-div{
+    background-color:#036606;
+    width: 100vw;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    white-space: nowrap;
+
+}
+.marquee{
+    padding: 10px 30px 10px 30px;
+    white-space: nowrap;
+
+}
+.marquee h2{
+    font-size: 2vw;
+    white-space: nowrap;
+} */
+
+
+
+
+
+
+
+.marquee-div{
+   background-color: rgb(62, 147, 1);
+    white-space: nowrap;
+    display: flex;
+}
+
+.chiled-marquee{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 99999;
+   white-space: nowrap;
+   overflow: hidden;
+}
+.chiled-marquee h1{
+    font-size: 3vw;
+}
